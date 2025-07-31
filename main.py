@@ -49,7 +49,7 @@ if __name__ == "__main__":
     # File path to the JSON input
     file_path = "IO/updated_parser_output.json"
     output_file = "IO/usr_output.txt"
-    discourse_path = "IO/discourse_output.txt"
+    discourse_path = "IO/discourse_output.json"
 
     # Call the function to format and save the output
     format_parser_output(file_path, discourse_path, output_file)

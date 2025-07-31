@@ -26,9 +26,9 @@ cd USR_Builder
 
 ### 2. Prepare Input
 
-There will be 2 json input files:
+There will be 2 json input files with IO Directory:
 
-(i) Discourse JSON
+(i) discourse_output.json: This json has Discourse Information with in segments.
 
 ```json
 [
@@ -40,12 +40,12 @@ There will be 2 json input files:
         "project_id": "1",
         "sent_1": "कौन तुम्हें यह काम करने को कह रहा है ?",
         "sent_1_id": "41",
-        "sent_2": "क्या किसी ने यह किताब पढ़ी है ? किसके साथ तुमने यह योजना बनाई ?",
+        "sent_2": "क्या किसी ने यह किताब पढ़ी है ?",
         "sent_2_id": "42"
     }
 ]
 ```
-(ii) Mopho JSON
+(ii) updated_parser_output.json: This json includes Parser, NER, Morph, Simple and Complex Concept Information.
 
 ```json
 {
